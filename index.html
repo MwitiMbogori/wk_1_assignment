@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+   <head>
+          <title>AjiraDigital Introduction to Web Development</title>
+             <link rel="stylesheet" href="styles.css" />
+            
+             
+
+    </head>
+  <body>
+    <div class="tab">
+        <button class="tablinks">Home</button>
+        <button class="tablinks">About us</button>
+        <button class="tablinks">Contact</button>
+      </div>
+         <h1 id="title" class="text-center">AjiraDigital Introduction to Web Development Trainings Survey Form</h1>
+         <p id="description" class="description-text-center">Thank you for taking the time to help us improve the Trainings</p>
+  <form id="survey-form">
+        <label>Name: <input id="name" type="text" name="name" placeholder="enter your full name" required /></label>
+        <label id="number">Phone Number: <input id="number" type="number" name="Phone Number" class="forn-control" placeholder="Enter your phone number" required /></label>
+        <label id="email-label">Email: <input id="email" type="email" name="email" class="forn-control" placeholder="Enter your Email" required /></label>
+       <label id="number-label" for="number">Age<span class="clue">(optional)</span></label><input type="number" name="age" id="number" min="18" max="60" class="form-control" placeholder="Age" />
+       <label id="number">ID Number: <input id="number" type="number" name="ID Number" class="forn-control" placeholder="Enter your ID number" required /></label>
+         <label id= "name-label">Which option best describes your current role?
+          <select id="dropdown">
+            <option value="">(select one)</option>
+            <option value="1">Junior Web Developer</option>
+            <option value="2">Mid Web Developer</option>
+            <option value="3">Senior Web Developer</option>
+            <option value="4">prefer not to say</option>
+            <option value="5">Other</option>
+          </select>
+        </label>
+        <label id= "name-label">How did you find out about AjiraDigital Introduction to Web Development Trainings?
+            <select id="dropdown">
+              <option value="">(select one)</option>
+              <option value="1">Print media</option>
+              <option value="2">Broadcast media</option>
+              <option value="3">Internet media</option>
+              <option value="4">Social gathering</option>
+              <option value="5">Friends</option>
+              <option value="6">Other</option>
+            </select>
+          </label>
+         <label>What is your favorite programming language?
+          <select name="referrer">
+            <option value="">(select one)</option>
+            <option value="1">C and C++</option>
+            <option value="2">Python</option>
+            <option value="3">Java and JavaScript </option>
+            <option value="4">Other</option>
+          </select>
+        </label>
+        <label>
+            <p>Have you attended any other AjiraDigital Trainings? <span class="clue">(Check all that apply)</span>?</p>
+            <label><input type="checkbox" name="videos" class="inline" value="front-end-projects" />Search engine optimization</label>
+            <label><input type="checkbox" name="Meetups" class="inline"  value="front-end-projects" />Content writing</label>
+            <label><input type="checkbox" name="courses" class="inline" value="front-end-projects" />Transcription</label>
+            <label><input type="checkbox" name="forum" class="inline"  value="front-end-projects" />Digital marketing and e-commerce</label>
+            <label>Any Other?<textarea name="bio" rows="1" cols="10"..."></textarea></label>
+        </label>
+        <p>Will you take another AjiraDigital Trainings after finishing Introduction to Web Development?</p>
+            <label><input type="radio" name="account-type" class="inline" value="definitely" checked />Yes</label>
+            <label><input type="radio" name="account-type" class="inline" value="definitely" checked />No</label>
+            <label><input type="radio" name="account-type" class="inline" value="definitely" checked />Maybe</label>
+            <label><input type="radio" name="account-type" class="inline" value="definitely" checked />Not sure</label>
+        <p>Would you recommend AjiraDigital Introduction to Web Development Trainings to your colleague?</p>
+            <label><input type="radio" name="account-type" class="inline" value="definitely" checked />Yes</label>
+            <label><input type="radio" name="account-type" class="inline" value="definitely" checked />No</label>
+            <label><input type="radio" name="account-type" class="inline" value="definitely" checked />Maybe</label>
+            <label><input type="radio" name="account-type" class="inline" value="definitely" checked />Not sure</label>
+<p>What would you like to see improved? <span class="clue">(Check all that apply)</span>?</p>
+<label>
+        <label><input type="checkbox" name="videos" class="inline" value="front-end-projects" />Virtual Trainings</label>
+        <label><input type="checkbox" name="Meetups" class="inline"  value="front-end-projects" />Physical Trainings</label>
+        <label><input type="checkbox" name="courses" class="inline" value="front-end-projects" />Mentorship</label>
+        <label><input type="checkbox" name="forum" class="inline"  value="front-end-projects" />Q&A Discussion</label>
+<label>Any comments or suggestions?
+          <textarea name="bio" rows="3" cols="30"..."></textarea>
+        </label>
+      </fieldset>
+      <input type="submit" value="Submit" />
+ </label>
+    </form>
+    </div>
+  </body>
+</html>
+
+
